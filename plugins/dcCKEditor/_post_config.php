@@ -68,9 +68,9 @@ $extraPlugins = $__extraPlugins->getArrayCopy();
         }
 
         var editor = CKEDITOR.instances[$.getEditorName()];
-        if (editor !== undefined && !confirmClosePage.formSubmit && editor.checkDirty()) {
-            e.returnValue = confirmClosePage.prompt;
-            return confirmClosePage.prompt;
+        if (editor !== undefined && !dotclear.confirmClosePage.form_submit && editor.checkDirty()) {
+            e.preventDefault(); // HTML5 specification
+            e.returnValue = ''; // Google Chrome requires returnValue to be set.
         }
         return false;
     });
@@ -105,6 +105,10 @@ $(function() {
 <?php if (!empty($dcckeditor_textcolor_button) || !empty($dcckeditor_background_textcolor_button)): ?>
     // button add "More Colors..." can be added if colordialog plugin is enabled
     CKEDITOR.config.colorButton_enableMore = true;
+    <?php if (!empty($dcckeditor_custom_color_list)) : ?>
+        CKEDITOR.config.colorButton_colors = '<?php echo $dcckeditor_custom_color_list; ?>';
+    <?php endif;?>
+    CKEDITOR.config.colorButton_colorsPerRow = <?php echo ($dcckeditor_colors_per_row ?: 6) ?>;
 <?php endif;?>
 
     CKEDITOR.config.defaultLanguage = dotclear.user_language;

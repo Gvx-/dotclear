@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dotclear\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 16:11+0200\n"
+"POT-Creation-Date: 2020-04-29 12:42+0200\n"
 "PO-Revision-Date: 2016-07-18 15:51+0200\n"
 "Last-Translator: Franck Paul <carnet.franck.paul@gmail.com>\n"
 "Language-Team: Romanian <ro@li.org>\n"
@@ -63,6 +63,9 @@ msgid "Safe Mode can only be used for super administrators."
 msgstr ""
 
 msgid "Insufficient permissions"
+msgstr ""
+
+msgid "Administration session expired"
 msgstr ""
 
 msgid "Wrong username or password"
@@ -296,6 +299,9 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
+msgid "Blog parameters"
+msgstr ""
+
 msgid "Blog details"
 msgstr ""
 
@@ -377,7 +383,7 @@ msgid "Disable internal search system"
 msgstr ""
 
 #, php-format
-msgid "Display %s entries on home page"
+msgid "Display %s entries on first page"
 msgstr ""
 
 #, php-format
@@ -396,6 +402,18 @@ msgid "Truncate feeds"
 msgstr ""
 
 msgid "Include sub-categories in category page and category posts feed"
+msgstr ""
+
+msgid "Display an entry as static home page"
+msgstr ""
+
+msgid "Entry URL (its content will be used for the static home page):"
+msgstr ""
+
+msgid "Choose an entry"
+msgstr ""
+
+msgid "Leave empty to use the default presentation."
 msgstr ""
 
 msgid "Media and images"
@@ -511,6 +529,9 @@ msgstr ""
 msgid "jQuery javascript library"
 msgstr ""
 
+msgid "Load the jQuery library"
+msgstr ""
+
 msgid "jQuery version to be loaded for this blog:"
 msgstr ""
 
@@ -576,6 +597,9 @@ msgstr ""
 msgid "Themes management"
 msgstr ""
 
+msgid "Manual checking of themes update done successfully."
+msgstr ""
+
 msgid "Update themes"
 msgstr ""
 
@@ -588,6 +612,9 @@ msgstr[2] ""
 
 #, php-format
 msgid "Visit %s repository, the resources center for Dotclear."
+msgstr ""
+
+msgid "Force checking update of themes"
 msgstr ""
 
 msgid "Installed themes"
@@ -663,6 +690,9 @@ msgid "Show"
 msgstr ""
 
 msgid "blogs per page"
+msgstr ""
+
+msgid "Save current options"
 msgstr ""
 
 msgid "Apply filters and display options"
@@ -933,6 +963,12 @@ msgstr[1] ""
 msgstr[2] ""
 
 msgid "Documentation and support"
+msgstr ""
+
+msgid "Dashboard area's drag and drop is disabled"
+msgstr ""
+
+msgid "Dashboard area's drag and drop is enabled"
 msgstr ""
 
 msgid "Dashboard"
@@ -1370,10 +1406,17 @@ msgstr ""
 msgid "delete"
 msgstr ""
 
+msgid "private media"
+msgstr ""
+
 msgid "open"
 msgstr ""
 
 msgid "Not a valid directory"
+msgstr ""
+
+#, php-format
+msgid "Directory or file \"%s\" already exists."
 msgstr ""
 
 #, php-format
@@ -1558,9 +1601,6 @@ msgstr ""
 msgid "Current settings for medias and images are defined in %s"
 msgstr ""
 
-msgid "Blog parameters"
-msgstr ""
-
 msgid "Not a valid file"
 msgstr ""
 
@@ -1571,9 +1611,6 @@ msgid "Thumbnails have been successfully updated."
 msgstr ""
 
 msgid "Default media insertion settings have been successfully updated."
-msgstr ""
-
-msgid "Are you sure to delete this media?"
 msgstr ""
 
 msgid "Select media item"
@@ -1589,6 +1626,12 @@ msgid "Insert media item"
 msgstr ""
 
 msgid "Image legend and title"
+msgstr ""
+
+msgid "Title: "
+msgstr ""
+
+msgid "Legend: "
 msgstr ""
 
 msgid "Image alignment"
@@ -1726,6 +1769,9 @@ msgstr ""
 msgid "File title:"
 msgstr ""
 
+msgid "File description:"
+msgstr ""
+
 msgid "File date:"
 msgstr ""
 
@@ -1763,6 +1809,9 @@ msgstr ""
 msgid "Plugin configuration"
 msgstr ""
 
+msgid "Manual checking of plugins update done successfully."
+msgstr ""
+
 msgid "Update plugins"
 msgstr ""
 
@@ -1772,6 +1821,9 @@ msgid_plural "There are %s plugins to update available from repository."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+
+msgid "Force checking update of plugins"
+msgstr ""
 
 msgid "Installed plugins"
 msgstr ""
@@ -1877,9 +1929,6 @@ msgstr ""
 msgid "&ldquo;%s&rdquo;"
 msgstr ""
 
-msgid "Entries"
-msgstr ""
-
 msgid "Posts"
 msgstr ""
 
@@ -1974,9 +2023,6 @@ msgid "Personal notes:"
 msgstr ""
 
 msgid "Unpublished notes."
-msgstr ""
-
-msgid "Edit post"
 msgstr ""
 
 msgid "Preview"
@@ -2111,7 +2157,16 @@ msgstr ""
 msgid "Category description"
 msgstr ""
 
-msgid "Posts"
+msgid "Last Name"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Display name"
+msgstr ""
+
+msgid "Number of entries"
 msgstr ""
 
 msgid "If you want to change your email or password you must provide your current password."
@@ -2139,6 +2194,9 @@ msgid "Favorites have been successfully updated."
 msgstr ""
 
 msgid "Default favorites have been successfully updated."
+msgstr ""
+
+msgid "Dashboard items order have been successfully reset."
 msgstr ""
 
 msgid "My profile"
@@ -2220,6 +2278,15 @@ msgid "This will be applied for all users"
 msgstr ""
 
 msgid "Optional columns displayed in lists"
+msgstr ""
+
+msgid "Options for lists"
+msgstr ""
+
+msgid "Apply filters on the fly"
+msgstr ""
+
+msgid "users per page"
 msgstr ""
 
 msgid "Edition"
@@ -2326,6 +2393,12 @@ msgstr ""
 msgid "Save my dashboard options"
 msgstr ""
 
+msgid "Dashboard items order"
+msgstr ""
+
+msgid "Reset dashboard items order"
+msgstr ""
+
 msgid "Search options"
 msgstr ""
 
@@ -2401,7 +2474,19 @@ msgstr ""
 msgid "The next versions of Dotclear will not support PHP version < %s, your's is currently %s"
 msgstr ""
 
+msgid "List options saved"
+msgstr ""
+
 msgid "Dotclear update"
+msgstr ""
+
+msgid "Precheck update error"
+msgstr ""
+
+msgid "Backup directory does not exist"
+msgstr ""
+
+msgid "Access denied"
 msgstr ""
 
 #, php-format
@@ -2489,6 +2574,9 @@ msgstr ""
 msgid "User has been successfully created."
 msgstr ""
 
+msgid "User has no permission, he will not be able to login yet. See below to add some."
+msgstr ""
+
 msgid "User profile"
 msgstr ""
 
@@ -2532,18 +2620,6 @@ msgstr ""
 msgid "%s is super admin (all rights on all blogs)."
 msgstr ""
 
-msgid "Last Name"
-msgstr ""
-
-msgid "First Name"
-msgstr ""
-
-msgid "Display name"
-msgstr ""
-
-msgid "Number of entries"
-msgstr ""
-
 msgid "Set permissions"
 msgstr ""
 
@@ -2551,9 +2627,6 @@ msgid "User has been successfully removed."
 msgstr ""
 
 msgid "The permissions have been successfully updated."
-msgstr ""
-
-msgid "users per page"
 msgstr ""
 
 msgid "Selected users action:"
@@ -2576,6 +2649,9 @@ msgid "Choose one or more blogs to which you want to give permissions to users %
 msgstr ""
 
 msgid "No blog"
+msgstr ""
+
+msgid "Entries"
 msgstr ""
 
 msgid "select"
@@ -2650,9 +2726,6 @@ msgid "IP addresses for selected comments have been blacklisted."
 msgstr ""
 
 msgid "Back to entries list"
-msgstr ""
-
-msgid "Entries actions"
 msgstr ""
 
 msgid "Posts actions"
@@ -2764,6 +2837,9 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
+msgid "[%H:%M:%S]"
+msgstr ""
+
 msgid "Change blog"
 msgstr ""
 
@@ -2774,9 +2850,6 @@ msgid "Go to the content"
 msgstr ""
 
 msgid "Go to the menu"
-msgstr ""
-
-msgid "Go to search"
 msgstr ""
 
 msgid "Go to help"
@@ -2799,9 +2872,6 @@ msgid "Safe mode"
 msgstr ""
 
 msgid "You are in safe mode. All plugins have been temporarily disabled. Remind to log out then log in again normally to get back all functionalities"
-msgstr ""
-
-msgid "[%H:%M:%S]"
 msgstr ""
 
 #, php-format
@@ -2849,6 +2919,9 @@ msgid "select all"
 msgstr ""
 
 msgid "Invert selection"
+msgstr ""
+
+msgid "Edit entry"
 msgstr ""
 
 msgid "view entry"
@@ -3098,9 +3171,6 @@ msgid "This module cannot be enabled, because of the following reasons :"
 msgstr ""
 
 msgid "Plugin from official distribution"
-msgstr ""
-
-msgid "Manage plugin"
 msgstr ""
 
 msgid "No plugins matched your search."
@@ -3377,6 +3447,9 @@ msgstr[2] ""
 msgid "Protected"
 msgstr ""
 
+msgid "Attachments"
+msgstr ""
+
 #, php-format
 msgid "%d attachment"
 msgstr ""
@@ -3442,6 +3515,15 @@ msgstr[1] ""
 msgstr[2] ""
 
 msgid "Blogs list"
+msgstr ""
+
+msgid "online"
+msgstr ""
+
+msgid "offline"
+msgstr ""
+
+msgid "removed"
 msgstr ""
 
 #, php-format
@@ -3520,16 +3602,16 @@ msgstr ""
 msgid "Plugins"
 msgstr ""
 
-msgid "medium"
+msgid "moyenne"
 msgstr ""
 
-msgid "small"
+msgid "petite"
 msgstr ""
 
-msgid "thumbnail"
+msgid "vignette"
 msgstr ""
 
-msgid "square"
+msgid "carrée"
 msgstr ""
 
 msgid "Pages"
@@ -3652,15 +3734,6 @@ msgstr ""
 msgid "Email address is not valid."
 msgstr ""
 
-msgid "online"
-msgstr ""
-
-msgid "offline"
-msgstr ""
-
-msgid "removed"
-msgstr ""
-
 msgid "You are not an administrator"
 msgstr ""
 
@@ -3705,12 +3778,6 @@ msgstr ""
 
 #, php-format
 msgid "Extract destination directory %s already exists."
-msgstr ""
-
-msgid "Embedded Audio Player"
-msgstr ""
-
-msgid "Embedded Video Player"
 msgstr ""
 
 #, php-format

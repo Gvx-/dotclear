@@ -1,4 +1,18 @@
-xDotclear 2.16.1 - 2020-04-15
+Dotclear 2.16.4 - 2020-04-24
+===========================================================
+* Fix: Remove <sub>content</sub> (_<content>_) from authorized element in wiki links. - missing from 2.16.3
+
+Dotclear 2.16.3 - 2020-04-20
+===========================================================
+* Fix: Remove <sub>content</sub> (_<content>_) from authorized element in wiki links.
+* Fix: Cope with default XHTML editor set to dcLegacyEditor and no format selected by default for new entries.
+
+Dotclear 2.16.2 - 2020-04-17
+===========================================================
+* Fix: Alert missing about existing modification in administration (post edition, …) with CKEditor
+* Merge old and new color palette for CKEditor text/background buttons
+
+Dotclear 2.16.1 - 2020-04-15
 ===========================================================
 * Fix: False alert about non existing modification in administration (post edition, …)
 * Fix: Test the existence of directory backup before update
